@@ -4,10 +4,10 @@
    "version": "1.0.0",
    "content_scripts": [
       {
-	    "matches": ["*://www.ebay.co.uk/myb/SavedSearches"],
+	    "matches": ["*://www.ebay.co.uk/mye/myebay/savedsearches"],
         "js": ["/lib/jquery-3.3.1.min.js", "/js/ebay-saved-searches-enhancer.js"],
 		"css": ["/css/style.css"]
       }
    ],
-   "permissions": ["*://www.ebay.co.uk/myb/SavedSearches"]
+   "permissions": ["*://www.ebay.co.uk/mye/myebay/savedsearches"]
 }

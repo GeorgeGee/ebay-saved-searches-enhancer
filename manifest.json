@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "eBay Saved Searches Enhancer",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "content_scripts": [
       {
 	    "matches": ["*://www.ebay.co.uk/mye/myebay/savedsearches"],
